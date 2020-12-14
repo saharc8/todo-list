@@ -1,7 +1,8 @@
-var priority = "Normal";
+let priority = "Normal";
 
 function setPriority(p) {
     priority = p;
+    document.getElementById("ddbtn").innerHTML = priority;
 }
 
 var priorityMap = {
